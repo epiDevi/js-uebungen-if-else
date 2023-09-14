@@ -1,0 +1,19 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+label , form p{
+  display: inline-block;
+  margin: 0;
+}
+
+
+section p:not(form p){
+  text-align: center;
+}
+input[type=range]{
+  width: 500px;
+}
